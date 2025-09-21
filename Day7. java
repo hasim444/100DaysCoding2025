@@ -1,0 +1,25 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        char kelas,nomor,anakke;
+        // Digunakan untuk menyimpan satu karakter
+       
+        kelas = 'D';
+        nomor = '7';
+        anakke = '2';
+        
+        
+        System.out.println("Saya Dari kelas\t \t : "+kelas);
+        System.out.println("nomor favorit saya nomor : "+nomor);
+        System.out.println("Saya adalah anak ke \t : "+anakke+"(pertama)");
+        
+        // Tipe data boolean hanya punya 2 nilai
+        boolean cukupUmur = nomor > 17;
+        boolean masihAnak = anakke < 13;
+
+        System.out.println("Apakah cukup umur: " + cukupUmur);
+        System.out.println("Apakah masih anak-anak: " + masihAnak);
+        
+        
+    }
+}
